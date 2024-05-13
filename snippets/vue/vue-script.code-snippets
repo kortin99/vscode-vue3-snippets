@@ -1,26 +1,26 @@
 {
-  "Vue Ref": {
-    "prefix": "vref",
+  "Vue 3 Ref": {
+    "prefix": "<v3> ref",
     "body": ["const ${1:name} = ref(${2:initialValue})"],
-    "description": "Vue Ref"
+    "description": "Vue 3 Ref"
   },
-  "Vue Ref typed": {
-    "prefix": "vref-typed",
+  "Vue 3 Ref typed": {
+    "prefix": "<v3> ref-typed",
     "body": ["const ${1:name} = ref<${2:type}>(${3:initialValue})"],
-    "description": "Vue Ref with generic type argument"
+    "description": "Vue 3 Ref with generic type argument"
   },
-  "Vue Reactive": {
-    "prefix": "vreactive",
+  "Vue 3 Reactive": {
+    "prefix": "<v3> reactive",
     "body": ["const ${1:name} = reactive({", "\t${2:count}: ${3:0}", "})"],
-    "description": "Vue reactive"
+    "description": "Vue 3 reactive"
   },
-  "Vue Computed": {
-    "prefix": "vcomputed",
+  "Vue 3 Computed": {
+    "prefix": "<v3> computed",
     "body": ["const ${1:name} = computed(() => {", "\treturn ${2}", "})"],
-    "description": "Vue computed"
+    "description": "Vue 3 computed"
   },
-  "Vue Watch": {
-    "prefix": "vwatch",
+  "Vue 3 Watch": {
+    "prefix": "<v3> watch",
     "body": [
       "watch(",
       "\t() => ${1:name},",
@@ -29,91 +29,91 @@
       "\t}",
       ")"
     ],
-    "description": "Vue watcher"
+    "description": "Vue 3 watcher"
   },
-  "Vue Watch Effect": {
-    "prefix": "vwatcheffect",
+  "Vue 3 Watch Effect": {
+    "prefix": "<v3> watcheffect",
     "body": [
       "watchEffect(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue Watch Effect"
+    "description": "Vue 3 Watch Effect"
   },
-  "Vue Lifecycle Hooks - onMounted": {
-    "prefix": "vonmounted",
+  "Vue 3 Lifecycle Hooks - onMounted": {
+    "prefix": "<v3> mounted",
     "body": [
       "onMounted(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onMounted Lifecycle hook"
+    "description": "Vue 3 onMounted Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onBeforeMount": {
-    "prefix": "vonbeforemount",
+  "Vue 3 Lifecycle Hooks - onBeforeMount": {
+    "prefix": "<v3> beforemount",
     "body": [
       "onBeforeMount(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onBeforeMount Lifecycle hook"
+    "description": "Vue 3 onBeforeMount Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onBeforeUpdate": {
-    "prefix": "vonbeforeupdate",
+  "Vue 3 Lifecycle Hooks - onBeforeUpdate": {
+    "prefix": "<v3> beforeupdate",
     "body": [
       "onBeforeUpdate(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onBeforeUpdate Lifecycle hook"
+    "description": "Vue 3 onBeforeUpdate Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onUpdated": {
-    "prefix": "vonupdated",
+  "Vue 3 Lifecycle Hooks - onUpdated": {
+    "prefix": "<v3> updated",
     "body": [
       "onUpdated(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onUpdated Lifecycle hook"
+    "description": "Vue 3 onUpdated Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onErrorCaptured": {
-    "prefix": "vonerrorcaptured",
+  "Vue 3 Lifecycle Hooks - onErrorCaptured": {
+    "prefix": "<v3> errorcaptured",
     "body": [
       "onErrorCaptured(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onErrorCaptured Lifecycle hook"
+    "description": "Vue 3 onErrorCaptured Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onUnmounted": {
-    "prefix": "vonunmounted",
+  "Vue 3 Lifecycle Hooks - onUnmounted": {
+    "prefix": "<v3> unmounted",
     "body": [
       "onUnmounted(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onUnmounted Lifecycle hook"
+    "description": "Vue 3 onUnmounted Lifecycle hook"
   },
-  "Vue Lifecycle Hooks - onBeforeUnmount": {
-    "prefix": "vonbeforeunmount",
+  "Vue 3 Lifecycle Hooks - onBeforeUnmount": {
+    "prefix": "<v3> beforeunmount",
     "body": [
       "onBeforeUnmount(() => {",
       "\t${1}",
       "})"
     ],
-    "description": "Vue onBeforeUnmount Lifecycle hook"
+    "description": "Vue 3 onBeforeUnmount Lifecycle hook"
   },
-  "Vue Define Props": {
-    "prefix": "vdefineprops",
+  "Vue 3 Define Props": {
+    "prefix": "<v3> props",
     "body": [
       "defineProps<{",
       "\t${1:name}: ${2:type}",
       "}>()"
     ],
-    "description": "Vue defineProps"
+    "description": "Vue 3 defineProps"
   },
-  "Vue Define Props with defaults": {
-    "prefix": "vdefineprops-withdefaults",
+  "Vue 3 Define Props with defaults": {
+    "prefix": "<v3> props-withdefaults",
     "body": [
       "withDefaults(defineProps<{",
       "\t${1:name}: ${2:type}",
@@ -121,54 +121,54 @@
       "\t${1:name}: ${3:default}",
       "})"
     ],
-    "description": "Vue withDefaults(defineProps)"
+    "description": "Vue 3 withDefaults(defineProps)"
   },
-  "Vue Define Emits": {
-    "prefix": "vdefineemits",
+  "Vue 3 Define Emits": {
+    "prefix": "<v3> emits",
     "body": [
       "const emit = defineEmits<{",
       "\t${1:eventName}: [${0}]",
       "}>()"
     ],
-    "description": "Vue defineEmits"
+    "description": "Vue 3 defineEmits"
   },
-  "Vue Single Emit": {
+  "Vue 3 Single Emit": {
     "prefix": "vsingleemit",
     "body": [
       "${1:eventName}: [${0}]",
     ],
-    "description": "Vue single emit for defineEmits"
+    "description": "Vue 3 single emit for defineEmits"
   },
-  "Vue Define Slots": {
-    "prefix": "vdefineslots",
+  "Vue 3 Define Slots": {
+    "prefix": "<v3> slots",
     "body": [
       "defineSlots<{",
       "\tdefault: (props: { ${0} }) => any",
       "}>()"
     ],
-    "description": "Vue defineSlots"
+    "description": "Vue 3 defineSlots"
   },
-  "Vue Single Slot": {
+  "Vue 3 Single Slot": {
     "prefix": "vsingleslot",
     "body": [
       "\t${1:slotName}: (props: { ${0} }) => any",
     ],
-    "description": "Vue single slot for defineSlots"
+    "description": "Vue 3 single slot for defineSlots"
   },
-  "Vue Define Options": {
-    "prefix": "vdefineoptions",
+  "Vue 3 Define Options": {
+    "prefix": "<v3> options",
     "body": [
       "defineOptions({",
       "\t${0}",
       "})"
     ],
-    "description": "Vue defineOptions"
+    "description": "Vue 3 defineOptions"
   },
-  "Vue Define Model": {
-    "prefix": "vdefinemodel",
+  "Vue 3 Define Model": {
+    "prefix": "<v3.3> model",
     "body": [
       "const modelValue = defineModel()",
     ],
-    "description": "Vue defineModel"
+    "description": "Vue 3 defineModel"
   },
 }

@@ -1,6 +1,6 @@
 {
   "Pinia Store Base": {
-    "prefix": "pstore",
+    "prefix": "<v3> store-pinia",
     "body": [
       "import { defineStore, acceptHMRUpdate } from \"pinia\"",
       "",
@@ -20,7 +20,7 @@
     "description": "Base code needed for a Pinia store file"
   },
   "Pinia Store Base - Composition API": {
-    "prefix": "pstore-composition",
+    "prefix": "<v3> store-composition",
     "body": [
       "import { defineStore, acceptHMRUpdate } from \"pinia\"",
       "",

@@ -1,6 +1,24 @@
 {
+  "Vue SFC <script setup>, TS": {
+    "prefix": "<v3> vbase",
+		"body": [
+			"<template>",
+			"\t<div>",
+			"\t\t$3",
+			"\t</div>",
+			"</template>",
+			"",
+			"<script setup lang=\"ts\">",
+			"\t$4",
+			"</script>",
+			"",
+			"<style lang=\"${1|less,scss,css|}\"${2: scoped}>",
+			"</style>"
+		],
+    "description": "Base for Vue 3 File with <script setup>, TypeScript and choose one CSS framework."
+  },
   "Vue SFC <script setup>, TS, SCSS": {
-    "prefix": "vbase",
+    "prefix": "<v3> vbase-scss",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -19,7 +37,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and SCSS"
   },
   "Vue SFC <script setup>, TS, SASS": {
-    "prefix": "vbase-sass",
+    "prefix": "<v3> vbase-sass",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -38,7 +56,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and SASS"
   },
   "Vue SFC <script setup>, TS, LESS": {
-    "prefix": "vbase-less",
+    "prefix": "<v3> vbase-less",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -57,7 +75,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and LESS"
   },
   "Vue SFC <script setup>, TS, PostCSS": {
-    "prefix": "vbase-pcss",
+    "prefix": "<v3> vbase-pcss",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -76,7 +94,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and PostCSS"
   },
   "Vue SFC <script setup>, TS, CSS": {
-    "prefix": "vbase-css",
+    "prefix": "<v3> vbase-css",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -95,7 +113,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and CSS"
   },
   "Vue SFC <script setup>, TS, Stylus": {
-    "prefix": "vbase-styl",
+    "prefix": "<v3> vbase-styl",
     "body": [
       "<script setup lang=\"ts\">",
       "",
@@ -114,7 +132,7 @@
     "description": "Base for Vue 3 File with <script setup>, TypeScript and Stylus"
   },
   "Vue SFC <script setup>, TS, No Style": {
-    "prefix": "vbase-ns",
+    "prefix": "<v3> vbase-no-style",
     "body": [
       "<script setup lang=\"ts\">",
       "",

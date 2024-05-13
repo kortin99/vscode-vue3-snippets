@@ -1,6 +1,6 @@
 {
   "Vue Transition": {
-    "prefix": "vcss-transition",
+    "prefix": "<v3> css-transition",
     "body": [
       ".v-enter-active,",
       ".v-leave-active {",
@@ -15,7 +15,7 @@
     "description": "Vue Transition styles"
   },
   "Vue Named Transition": {
-    "prefix": "vcss-transition-named",
+    "prefix": "<v3> css-transition-named",
     "body": [
       ".${1:transitionName}-enter-active,",
       ".${1:transitionName}-leave-active {",
@@ -30,7 +30,7 @@
     "description": "Vue Named Transition styles"
   },
   "Vue Transition - Tailwind": {
-    "prefix": "vcss-transition-tailwind",
+    "prefix": "<v3> css-transition-tailwind",
     "body": [
       ".v-enter-active,",
       ".v-leave-active {",
@@ -45,7 +45,7 @@
     "description": "Vue Transition styles for Tailwind CSS"
   },
   "Vue Named Transition - Tailwind": {
-    "prefix": "vcss-transition-named-tailwind",
+    "prefix": "<v3> css-transition-named-tailwind",
     "body": [
       ".${1:transitionName}-enter-active,",
       ".${1:transitionName}-leave-active {",
@@ -60,7 +60,7 @@
     "description": "Vue Named Transition styles for Tailwind CSS"
   },
   "Vue Transition Group": {
-    "prefix": "vcss-transition-group",
+    "prefix": "<v3> css-transition-group",
     "body": [
       ".${1:transitionName}-move,",
       ".${1:transitionName}-enter-active,",
@@ -80,7 +80,7 @@
     "description": "Vue Transition Group styles"
   },
   "Vue Transition Group - Tailwind": {
-    "prefix": "vcss-transition-group-tailwind",
+    "prefix": "<v3> css-transition-group-tailwind",
     "body": [
       ".${1:transitionName}-move,",
       ".${1:transitionName}-enter-active,",
